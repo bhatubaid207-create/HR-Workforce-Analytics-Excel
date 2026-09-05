@@ -40,3 +40,55 @@ The analysis therefore combines **descriptive HR analytics, interactive workforc
 - Segment employees into **Low, Moderate, and High attrition-risk groups**.
 - Translate analytical findings into practical HR retention priorities.
 - Provide an interactive dashboard for workforce exploration by **Department, Gender, and Age Group**.
+
+## ⚙️ Project Workflow
+
+The project follows an end-to-end HR analytics workflow:
+
+**Raw HR Data → Data Cleaning → Feature Engineering → Workforce Metrics → Attrition Analysis → Predictive Modeling → Risk Segmentation → Interactive Dashboard → Management Recommendations**
+
+### 1. Data Preparation
+- Preserved the original dataset in a dedicated `Raw_Data` worksheet.
+- Created a structured `Clean_Data` layer for analysis.
+- Standardized workforce variables and prepared analytical fields.
+- Maintained all **5,000 employee records** throughout the data-preparation process.
+
+### 2. Feature Engineering
+Derived analytical variables were created to support workforce segmentation and attrition analysis, including:
+
+`Attrition_Flag` • `Age_Group` • `Salary_Band` • `Tenure_Band` • `Role_Tenure_Band` • `Distance_Band` • `Satisfaction_Level` • `WLB_Level` • `Training_Band` • `Leave_Band`
+
+### 3. Descriptive HR Analytics
+Excel PivotTables and calculated metrics were used to evaluate:
+- Workforce headcount and active employees
+- Attrition and retention rates
+- Compensation and tenure
+- Job satisfaction
+- Appraisal ratings
+- Overtime
+- Work-life balance
+- Company and role tenure
+- Training, leave, and commuting-distance patterns
+
+### 4. Predictive Attrition Modeling
+A **logistic regression model** was developed to estimate employee attrition probability using five workforce risk indicators:
+
+- Low Job Satisfaction
+- Low Appraisal Rating
+- Overtime
+- Poor Work-Life Balance
+- Early Company Tenure
+
+The model generates an employee-level attrition probability that is subsequently used for workforce risk segmentation.
+
+### 5. Risk Segmentation
+Employees were classified into **Low, Moderate, and High Risk** groups based on their predicted attrition probabilities. The resulting segments were validated against observed employee attrition to assess whether the model meaningfully differentiated workforce risk.
+
+### 6. Interactive Reporting
+The final Excel solution combines:
+- Dynamic KPI cards
+- Attrition-driver analysis
+- Work-life balance analysis
+- Predictive risk intelligence
+- Department, Gender, and Age Group slicers
+- Management-focused HR reporting and retention recommendations
