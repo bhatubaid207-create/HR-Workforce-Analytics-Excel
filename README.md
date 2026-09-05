@@ -121,3 +121,31 @@ Employees with **1–2 years of company tenure recorded 40.23% attrition**.
 Attrition subsequently declined across longer-tenure groups, indicating that the early employment period deserves particular attention in retention planning.
 
 > **Interpretation Note:** These findings represent associations observed within the dataset and should not be interpreted as evidence that any individual factor directly causes employee attrition.
+## 🧠 Predictive Attrition Intelligence
+
+A logistic regression model was developed to estimate employee attrition probability using selected workforce risk indicators. Predicted probabilities were then used to segment the workforce into **Low, Moderate, and High Risk** categories.
+
+### Risk Segmentation Results
+
+| Risk Segment | Employees | Actual Attrition Rate |
+|---|---:|---:|
+| Low Risk | 1,852 | 19.28% |
+| Moderate Risk | 1,548 | 31.59% |
+| High Risk | 1,600 | 63.06% |
+
+The **High-Risk segment represents 32.0% of the workforce** and recorded an actual attrition rate of **63.06%**. The progression from **19.28% → 31.59% → 63.06%** demonstrates meaningful separation between the model-generated risk segments within this dataset.
+
+### Model Performance
+
+| Metric | Result |
+|---|---:|
+| ROC-AUC | **0.716** |
+| Accuracy | **73.24%** |
+| Precision | **68.50%** |
+| Recall | **51.59%** |
+| F1 Score | **58.86%** |
+| Classification Threshold | **50%** |
+
+> **Model Evaluation Note:** Performance metrics are based on the same dataset used to fit the logistic regression model (**in-sample evaluation**). They demonstrate the analytical workflow and model discrimination within this dataset and should not be interpreted as independent out-of-sample predictive performance.
+
+> **Responsible HR Use:** Risk scores are intended to support workforce prioritization and further HR assessment. They should not be used as standalone evidence for individual employment decisions.
