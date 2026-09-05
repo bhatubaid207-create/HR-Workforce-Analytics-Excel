@@ -18,3 +18,25 @@ The project analyzes **5,000 employee records** through an interactive executive
 - Logistic regression attrition-risk model with **ROC-AUC of 0.716**
 - Employee-level **Low, Moderate, and High** risk segmentation
 - Management-focused retention recommendations and monitoring framework
+
+## 🎯 Business Problem
+
+Employee attrition can create significant workforce disruption through increased recruitment costs, loss of organizational knowledge, productivity gaps, and pressure on existing employees.
+
+The objective of this project is to move beyond basic attrition reporting and answer three management-focused questions:
+
+1. **Where is employee attrition concentrated across the workforce?**
+2. **Which workforce factors are associated with higher attrition?**
+3. **How can predictive analytics help HR prioritize employees or workforce segments for further retention assessment?**
+
+The analysis therefore combines **descriptive HR analytics, interactive workforce segmentation, predictive risk modeling, and management recommendations** to support evidence-based retention decisions.
+
+## 🔍 Analytical Objectives
+
+- Measure overall workforce size, attrition, retention, compensation, and tenure.
+- Analyze attrition across employee experience and workforce characteristics.
+- Evaluate patterns associated with **job satisfaction, appraisal ratings, overtime, work-life balance, and tenure**.
+- Build a logistic regression model to estimate employee attrition probability.
+- Segment employees into **Low, Moderate, and High attrition-risk groups**.
+- Translate analytical findings into practical HR retention priorities.
+- Provide an interactive dashboard for workforce exploration by **Department, Gender, and Age Group**.
