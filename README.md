@@ -301,3 +301,28 @@ This project is designed as an HR analytics and predictive modeling portfolio ca
 > **Use analytics to identify where HR should investigate and support—not to automatically decide what should happen to an employee.**
 
 The purpose of the predictive layer is to help prioritize workforce attention while maintaining appropriate human oversight and contextual decision-making.
+
+## 📥 Explore the Project
+
+The complete interactive Excel workbook is available in this repository:
+
+### [Download the HR Workforce Analytics Workbook](./Obaid_Ayoub_HR_Workforce_Analytics.xlsx)
+
+For the best experience:
+
+1. Download the `.xlsx` workbook.
+2. Open it in **Microsoft Excel desktop**.
+3. Start with the `HR_Analytics_Dashboard` worksheet.
+4. Use the **Department, Gender, and Age Group** slicers to explore workforce segments.
+5. Review `HR_Report` for management-focused findings and retention recommendations.
+6. Explore `Predictive_Risk` for the logistic regression workflow, risk segmentation, and model evaluation.
+
+> **Note:** GitHub's file preview does not provide the workbook's full Excel interactivity. Download and open the file in Microsoft Excel to use the dashboard slicers and explore the complete analytical workflow.
+
+---
+
+### Project Focus
+
+**HR Analytics • People Analytics • Employee Attrition • Workforce Intelligence • Predictive Analytics • Microsoft Excel • Logistic Regression**
+
+*Developed as a portfolio project demonstrating end-to-end HR analytics—from workforce data preparation and descriptive analysis to predictive risk modeling and management-focused decision support.*
