@@ -149,3 +149,22 @@ The **High-Risk segment represents 32.0% of the workforce** and recorded an actu
 > **Model Evaluation Note:** Performance metrics are based on the same dataset used to fit the logistic regression model (**in-sample evaluation**). They demonstrate the analytical workflow and model discrimination within this dataset and should not be interpreted as independent out-of-sample predictive performance.
 
 > **Responsible HR Use:** Risk scores are intended to support workforce prioritization and further HR assessment. They should not be used as standalone evidence for individual employment decisions.
+
+## 💼 Management Recommendations
+
+Based on the observed workforce patterns and predictive risk analysis, the following areas should receive priority attention:
+
+| Priority Area | Recommended HR Response |
+|---|---|
+| **Job Satisfaction** | Use targeted pulse surveys, stay conversations, and manager-led action plans to investigate low-satisfaction workforce segments. |
+| **Performance Support** | Strengthen coaching, development planning, role clarity, and feedback mechanisms for employees receiving lower appraisal ratings. |
+| **Overtime & Workload** | Monitor sustained overtime exposure and review workload distribution, staffing capacity, and scheduling practices. |
+| **Work-Life Balance** | Evaluate workload design and flexibility opportunities while monitoring WLB indicators across workforce segments. |
+| **Early-Tenure Retention** | Strengthen onboarding, 30/60/90-day check-ins, mentoring, and structured retention conversations during employees' first two years. |
+| **High-Risk Workforce** | Use predictive risk segmentation to prioritize further HR assessment and supportive interventions rather than automatic employment decisions. |
+
+### Management Approach
+
+The recommended strategy is to combine **workforce analytics, employee listening, managerial judgment, targeted interventions, and continuous outcome monitoring**.
+
+Rather than applying uniform retention initiatives across the organization, HR can use these insights to identify workforce areas requiring deeper investigation, allocate retention resources more strategically, and evaluate whether interventions are followed by improved workforce outcomes.
