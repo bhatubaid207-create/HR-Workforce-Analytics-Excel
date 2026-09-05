@@ -168,3 +168,20 @@ Based on the observed workforce patterns and predictive risk analysis, the follo
 The recommended strategy is to combine **workforce analytics, employee listening, managerial judgment, targeted interventions, and continuous outcome monitoring**.
 
 Rather than applying uniform retention initiatives across the organization, HR can use these insights to identify workforce areas requiring deeper investigation, allocate retention resources more strategically, and evaluate whether interventions are followed by improved workforce outcomes.
+
+## 📋 HR Management Report
+
+In addition to the interactive dashboard, the workbook includes a dedicated **HR Workforce Attrition Report** designed to translate analytical findings into management-focused insights and retention priorities.
+
+The report includes:
+
+- Executive Summary
+- Key Management Findings
+- Recommended Retention Action Plan
+- Management Prioritization
+- Monitoring & Success Measures
+- Management Takeaway
+
+![HR Workforce Attrition Report](images/hr_report_preview.png)
+
+The report bridges the gap between **HR analytics and managerial decision-making**, demonstrating how workforce data can be converted into structured recommendations while maintaining appropriate caution around predictive risk interpretation.
