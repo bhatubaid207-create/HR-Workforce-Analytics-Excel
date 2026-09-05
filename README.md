@@ -255,3 +255,32 @@ These filters dynamically update the descriptive analytics layer, including:
 
 > **Predictive Dashboard Note:** The Predictive Attrition Intelligence section presents overall model results and does not recalculate when dashboard slicers are applied.
 > 
+
+## 📊 Dataset & Data Source
+
+This project uses the **HR Attrition Indian Dataset**, containing **5,000 employee records** and workforce-related attributes covering demographics, employment characteristics, compensation, tenure, performance, employee experience, and attrition status.
+
+### Dataset Coverage
+
+The source data includes variables related to:
+
+- Employee demographics
+- Department and designation
+- Education qualification
+- Monthly salary
+- Company and role tenure
+- Appraisal ratings
+- Training hours
+- Job satisfaction
+- Work-life balance
+- Overtime
+- Distance from home
+- Leave utilization
+- Employee attrition status
+
+**Source:** Kaggle — HR Attrition Indian Dataset  
+**License:** CC0 / Public Domain
+
+> **Data Note:** The dataset is used for educational and portfolio-based HR analytics. Employee names and records are treated as synthetic/anonymized data and should not be interpreted as confidential workforce information from a real organization.
+
+The original dataset is preserved in the workbook's `Raw_Data` worksheet, while the `Clean_Data` worksheet contains the prepared and feature-engineered analytical dataset.
