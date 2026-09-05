@@ -222,3 +222,36 @@ The report bridges the gap between **HR analytics and managerial decision-making
 - Management prioritization
 - KPI monitoring frameworks
 - Responsible interpretation of predictive HR analytics
+
+## 📁 Workbook Structure
+
+| Worksheet | Purpose |
+|---|---|
+| `HR_Analytics_Dashboard` | Interactive executive dashboard presenting workforce KPIs, attrition insights, predictive risk intelligence, and slicer-based workforce exploration. |
+| `HR_Report` | Management-oriented report containing executive findings, retention recommendations, prioritization, and monitoring measures. |
+| `README` | In-workbook project documentation covering objectives, methodology, insights, model interpretation, limitations, and navigation. |
+| `HR_Metrics` | Workforce and employee-experience KPI calculations supporting the analytical outputs. |
+| `Attrition_Analysis` | PivotTables and supporting calculations used to analyze attrition across workforce characteristics. |
+| `Predictive_Risk` | Logistic regression calculations, employee attrition probabilities, risk segmentation, model evaluation, and risk register. |
+| `Clean_Data` | Cleaned and feature-engineered employee dataset used throughout the analysis. |
+| `Raw_Data` | Original source dataset preserved as the raw analytical input. |
+
+### 🔄 Dashboard Interactivity
+
+The dashboard includes interactive slicers for:
+
+**Department • Gender • Age Group**
+
+These filters dynamically update the descriptive analytics layer, including:
+
+- Total Headcount
+- Active Employees
+- Attrition Rate
+- Retention Rate
+- Average Monthly Salary
+- Average Tenure
+- Key Attrition Drivers
+- Work-Life Balance Analysis
+
+> **Predictive Dashboard Note:** The Predictive Attrition Intelligence section presents overall model results and does not recalculate when dashboard slicers are applied.
+> 
