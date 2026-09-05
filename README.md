@@ -92,3 +92,32 @@ The final Excel solution combines:
 - Predictive risk intelligence
 - Department, Gender, and Age Group slicers
 - Management-focused HR reporting and retention recommendations
+
+## 📈 Key HR Insights
+
+### 1. Low Job Satisfaction — Strongest Observed Attrition Signal
+Employees with **Low Job Satisfaction recorded 51.48% attrition**, compared with the overall workforce attrition rate of **37.10%**.
+
+This represents a **14.38 percentage-point increase** over the overall workforce rate, making low job satisfaction the strongest observed attrition signal in the analysis.
+
+### 2. Low Appraisal Ratings
+Employees receiving appraisal ratings of **1–2 recorded a combined attrition rate of 49.71%**.
+
+The pattern suggests that employees experiencing lower performance outcomes may warrant further investigation around coaching, development, role alignment, and manager feedback.
+
+### 3. Overtime
+Employees working overtime recorded **43.60% attrition**, compared with **30.80%** among employees without overtime.
+
+This indicates a meaningful association between overtime exposure and employee exits within the dataset.
+
+### 4. Work-Life Balance
+Employees reporting **Poor Work-Life Balance recorded 43.00% attrition**, compared with **29.91%** among employees reporting Good Work-Life Balance.
+
+This highlights work-life balance as an important workforce experience factor for retention analysis.
+
+### 5. Early Company Tenure
+Employees with **1–2 years of company tenure recorded 40.23% attrition**.
+
+Attrition subsequently declined across longer-tenure groups, indicating that the early employment period deserves particular attention in retention planning.
+
+> **Interpretation Note:** These findings represent associations observed within the dataset and should not be interpreted as evidence that any individual factor directly causes employee attrition.
