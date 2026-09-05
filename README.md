@@ -284,3 +284,20 @@ The source data includes variables related to:
 > **Data Note:** The dataset is used for educational and portfolio-based HR analytics. Employee names and records are treated as synthetic/anonymized data and should not be interpreted as confidential workforce information from a real organization.
 
 The original dataset is preserved in the workbook's `Raw_Data` worksheet, while the `Clean_Data` worksheet contains the prepared and feature-engineered analytical dataset.
+
+## ⚠️ Limitations & Responsible Interpretation
+
+This project is designed as an HR analytics and predictive modeling portfolio case study. The following limitations should be considered when interpreting the results:
+
+- **Association, not causation:** The identified workforce factors are associated with attrition within this dataset. The analysis does not establish that these factors directly cause employees to leave.
+- **In-sample model evaluation:** The logistic regression model was evaluated using the same dataset on which it was fitted. Reported performance metrics therefore demonstrate model discrimination within this dataset rather than independent out-of-sample predictive performance.
+- **Risk scores are not definitive predictions:** Employee-level probabilities represent statistical risk estimates and should not be interpreted as certainty that an individual employee will leave.
+- **Management judgment remains essential:** Predictive outputs should support—not replace—HR assessment, employee conversations, organizational context, and managerial judgment.
+- **Dataset-specific findings:** Relationships identified in this dataset may not generalize to other organizations, industries, workforce populations, or time periods.
+- **Ethical use of People Analytics:** Predictive risk information should be used to support employee retention, workforce planning, and further investigation—not as standalone justification for adverse employment decisions.
+
+## 🔐 Responsible HR Analytics Principle
+
+> **Use analytics to identify where HR should investigate and support—not to automatically decide what should happen to an employee.**
+
+The purpose of the predictive layer is to help prioritize workforce attention while maintaining appropriate human oversight and contextual decision-making.
