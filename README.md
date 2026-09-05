@@ -185,3 +185,40 @@ The report includes:
 ![HR Workforce Attrition Report](images/hr_report_preview.png)
 
 The report bridges the gap between **HR analytics and managerial decision-making**, demonstrating how workforce data can be converted into structured recommendations while maintaining appropriate caution around predictive risk interpretation.
+
+## 🛠️ Tools & Skills Demonstrated
+
+### Microsoft Excel
+- Excel Tables and structured references
+- PivotTables and PivotCharts
+- Interactive slicers and report connections
+- Dynamic KPI calculations
+- Lookup and analytical formulas
+- Conditional formatting
+- Dashboard design and workbook navigation
+- Data cleaning and feature engineering
+
+### HR & People Analytics
+- Employee attrition analysis
+- Workforce segmentation
+- Retention analysis
+- Employee experience metrics
+- KPI development and interpretation
+- Risk-based workforce prioritization
+- Management reporting
+
+### Predictive Analytics
+- Logistic regression
+- Employee-level probability estimation
+- Risk segmentation
+- Classification threshold analysis
+- Confusion-matrix evaluation
+- ROC-AUC
+- Accuracy, Precision, Recall and F1 Score
+
+### Business & Management Skills
+- Translating analytical findings into HR insights
+- Developing evidence-based retention recommendations
+- Management prioritization
+- KPI monitoring frameworks
+- Responsible interpretation of predictive HR analytics
